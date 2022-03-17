@@ -128,6 +128,9 @@
 }
 
 .rating{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 15px;
   padding: 5px;
   background-color: rgb(255, 255, 198);
@@ -170,6 +173,103 @@
 .m-p-t{
   margin-top: 20px;
   padding-top: 30px;
+}
+
+.pdp{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100vw;
+  height: 83vh;
+}
+
+.pdp-info{
+  width: 400px;
+  height: 600px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.pdp-img{
+  margin-top: 20px;
+  margin-right: 25px;
+  height: 300px;
+  width: 300px;
+  background-color: lightgray;
+  border-radius: 5px;
+  box-shadow: 0 1px 10px rgba(44, 61, 33, 0.8);
+}
+
+.name-rating{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px 0 0 7px
+}
+
+.b-name{
+  font-size: 30px;
+}
+
+.pdp-info p{
+  margin : 30px 20px 0 20px;
+}
+
+.pdp-price{
+  margin: 50px 0 0 16px;
+}
+
+.pdp-delivery{
+  margin-left: 20px;
+}
+
+.pdp-info h6{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 18px;
+}
+
+.pdp-qty-control{
+  margin: 10px 0 0 20px;
+}
+
+.btn-qty{
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #F79B34;
+  color: white;
+
+}
+
+.btn-qty:hover{
+  font-size: 20px;
+}
+
+#qty-change-input{
+  width: 50px;
+  height: 30px;
+  border: 0;
+  background-color: lightgrey;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.btn-add{
+  margin: 10px 0 0 20px;
+  width: 112px;
+  height: 40px;
+  font-size: 18px;
+  border: 0;
+  background-color: #F79B34;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
 }
 
 #main-footer{

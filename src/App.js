@@ -1,18 +1,22 @@
 import './App.css';
 import Header from './Components/Header'
-import Showcase from './Components/Showcase'
 import Catalog from './Components/Catalog'
 import Footer from './Components/Footer'
+import Pdp from './Components/Pdp';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 
 function App() {
   return (
-    <>
-    <Header/>
-    <Showcase/>
-    <Catalog/>
-    <Footer/>
-    </>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Catalog />} />
+        <Route path="/Pdp" element={<Pdp />} />
+      </Routes>
+      <Footer />
+    </Router>
+
   );
 }
 
