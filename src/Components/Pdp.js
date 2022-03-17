@@ -3,6 +3,38 @@ import data from '../data.json'
 import star from '../images/Star.png'
 
 const Pdp = () => {
+
+  setTimeout(() => {
+    let qty = document.getElementById('qty-change-input');
+    let add = document.getElementById('btn-inc');
+    let sub = document.getElementById('btn-dec');
+    let addToCart = document.getElementById('btn-add');
+
+    let count = 0;
+
+    add.addEventListener('click', function () {
+      count += 1;
+      qty.innerText = count;
+    })
+
+    sub.addEventListener('click', function () {
+      if(count>0){
+        count -= 1
+        qty.innerText = count;
+      }  
+    })
+
+    addToCart.addEventListener('click', function () {
+      if(count === 0 ){
+        alert("Please select valid Quantity..")
+      }
+      else{
+        alert(count + " Product added to cart Successfully")
+      }  
+    })
+
+  }, 500);
+
   return (
     <div className="pdp">
       <div className="pdp-img">
@@ -26,12 +58,12 @@ const Pdp = () => {
 
         <h6>Qty</h6>
         <div className="pdp-qty-control">
-          <button className="btn-neg btn-qty">-</button>
-          <input type="text" id="qty-change-input"/>
-          <button className="btn-pos btn-qty">+</button>
+          <button id="btn-dec" className="btn-qty">-</button>
+          <div id="qty-change-input">0</div>
+          <button id="btn-inc" className="btn-qty">+</button>
         </div>
 
-        <button className="btn-add">Add to Cart</button>
+        <button id="btn-add">Add to Cart</button>
 
       </div>
 

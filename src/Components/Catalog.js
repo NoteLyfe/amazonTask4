@@ -1,8 +1,8 @@
 import data from '../data.json'
-import search from '../images/search.png'
+import lens from '../images/search.png'
 // import {Link} from 'react-router-dom'
 
-const Catalog = (props) => {
+const Catalog = () => {
 
   setTimeout(() => {
     document.getElementById('qty').innerText = data.length;
@@ -16,7 +16,7 @@ const Catalog = (props) => {
           <h1>Shoe Company Name</h1>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur similique minus eligendi. Nam odio sunt fuga explicabo veritatis neque! Repellat</p>
 
-          <img src={search} alt="lens" id="lens" />
+          <img src={lens} alt="lens" id="lens" />
           <input type="text" id='search-input' placeholder='Search Shoes' />
           <button id="btn">Search</button>
         </div>

@@ -160,5 +160,23 @@
         "rating": "4.1",
         "star": "./images/Star.png",
         "date": "today"
+    },
+    {
+        "id": 19,
+        "name": "Nike Sports",
+        "image": "./images/image1.png",
+        "price": 2500,
+        "rating": "4.1",
+        "star": "./images/Star.png",
+        "date": ""
+    },
+    {
+        "id": 20,
+        "name": "Adidas",
+        "image": "./images/image2.png",
+        "price": 1900,
+        "rating": "4.1",
+        "star": "./images/Star.png",
+        "date": "tomorrow"
     }    
 ]

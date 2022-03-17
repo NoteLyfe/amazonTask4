@@ -232,6 +232,7 @@
 
 .pdp-qty-control{
   margin: 10px 0 0 20px;
+  display: flex;
 }
 
 .btn-qty{
@@ -256,11 +257,13 @@
   border: 0;
   background-color: lightgrey;
   border-radius: 5px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 18px;
 }
 
-.btn-add{
+#btn-add{
   margin: 10px 0 0 20px;
   width: 112px;
   height: 40px;
