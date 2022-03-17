@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Components/Header'
 import Showcase from './Components/Showcase'
 import Catalog from './Components/Catalog'
+import Footer from './Components/Footer'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <Header/>
     <Showcase/>
     <Catalog/>
+    <Footer/>
     </>
   );
 }

@@ -4,7 +4,7 @@
         "name": "Nike Sports",
         "image": "./images/image1.png",
         "price": 2000,
-        "rating": 3.2,
+        "rating": "3.2",
         "star": "./images/Star.png",
         "date": "today"
     },
@@ -13,7 +13,7 @@
         "name": "Adidas",
         "image": "./images/image2.png",
         "price": 1900,
-        "rating": 4.1,
+        "rating": "4.1",
         "star": "./images/Star.png",
         "date": "tomorrow"
     },
@@ -22,7 +22,7 @@
         "name": "Reebok Sports",
         "image": "./images/image3.png",
         "price": 2500,
-        "rating": 5.0,
+        "rating": "5.0",
         "star": "./images/Star.png",
         "date": "today"
     },
@@ -31,7 +31,7 @@
         "name": "Gucci",
         "image": "./images/image4.png",
         "price": 2200,
-        "rating": 4.8,
+        "rating": "4.8",
         "star": "./images/Star.png",
         "date": "tomorrow"
     },
@@ -40,7 +40,7 @@
         "name": "D&G",
         "image": "./images/image5.png",
         "price": 5500,
-        "rating": 1.4,
+        "rating": "1.4",
         "star": "./images/Star.png",
         "date": " "
     },
@@ -49,7 +49,7 @@
         "name": "Action",
         "image": "./images/image6.png",
         "price": 3000,
-        "rating": 4.1,
+        "rating": "4.1",
         "star": "./images/Star.png",
         "date": "today"
     },
@@ -58,7 +58,7 @@
         "name": "Nike Sports",
         "image": "./images/image1.png",
         "price": 2000,
-        "rating": 3.2,
+        "rating": "3.2",
         "star": "./images/Star.png",
         "date": "today"
     },
@@ -67,7 +67,7 @@
         "name": "Adidas",
         "image": "./images/image2.png",
         "price": 1900,
-        "rating": 4.1,
+        "rating": "4.1",
         "star": "./images/Star.png",
         "date": "tomorrow"
     },
@@ -76,7 +76,7 @@
         "name": "Reebok Sports",
         "image": "./images/image3.png",
         "price": 2500,
-        "rating": 5.0,
+        "rating": "5.0",
         "star": "./images/Star.png",
         "date": "today"
     },
@@ -85,7 +85,7 @@
         "name": "Gucci",
         "image": "./images/image4.png",
         "price": 2200,
-        "rating": 4.8,
+        "rating": "4.8",
         "star": "./images/Star.png",
         "date": "tomorrow"
     },
@@ -94,7 +94,7 @@
         "name": "D&G",
         "image": "./images/image5.png",
         "price": 5500,
-        "rating": 1.4,
+        "rating": "1.4",
         "star": "./images/Star.png",
         "date": " "
     },
@@ -103,7 +103,7 @@
         "name": "Action",
         "image": "./images/image6.png",
         "price": 3000,
-        "rating": 4.1,
+        "rating": "4.1",
         "star": "./images/Star.png",
         "date": "today"
     },
@@ -112,7 +112,7 @@
         "name": "Nike Sports",
         "image": "./images/image1.png",
         "price": 2000,
-        "rating": 3.2,
+        "rating": "3.2",
         "star": "./images/Star.png",
         "date": "today"
     },
@@ -121,7 +121,7 @@
         "name": "Adidas",
         "image": "./images/image2.png",
         "price": 1900,
-        "rating": 4.1,
+        "rating": "4.1",
         "star": "./images/Star.png",
         "date": "tomorrow"
     },
@@ -130,7 +130,7 @@
         "name": "Reebok Sports",
         "image": "./images/image3.png",
         "price": 2500,
-        "rating": 5.0,
+        "rating": "5.0",
         "star": "./images/Star.png",
         "date": "today"
     },
@@ -139,7 +139,7 @@
         "name": "Gucci",
         "image": "./images/image4.png",
         "price": 2200,
-        "rating": 4.8,
+        "rating": "4.8",
         "star": "./images/Star.png",
         "date": "tomorrow"
     },
@@ -148,7 +148,7 @@
         "name": "D&G",
         "image": "./images/image5.png",
         "price": 5500,
-        "rating": 1.4,
+        "rating": "1.4",
         "star": "./images/Star.png",
         "date": " "
     },
@@ -157,7 +157,7 @@
         "name": "Action",
         "image": "./images/image6.png",
         "price": 3000,
-        "rating": 4.1,
+        "rating": "4.1",
         "star": "./images/Star.png",
         "date": "today"
     }    

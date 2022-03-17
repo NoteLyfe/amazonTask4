@@ -62,7 +62,6 @@
 
 #btn{
   position: relative;
-  top: -1px;
   right: 86px;
   height: 45px;
   width: 85px;
@@ -82,7 +81,7 @@
 #lens{
   position: relative;
   top: 8px;
-  left: 50px;
+  left: 40px;
 }
 
 #prod-qty{
@@ -94,3 +93,89 @@
   font-size: 30px;
 }
 
+#catalog{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+  grid-template-rows: repeat(4, 385px);
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+  margin: 36px 50px 0px 50px;
+  padding: 20px 10px 0 10px;
+}
+
+.box{
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid darkgray;
+  box-shadow: 0 1px 10px rgba(44, 61, 33, 0.8);
+}
+
+.box img{
+  margin-top: -60px;
+}
+
+.brand_star{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin: 2px 5px;
+  padding: 2px 5px;
+}
+
+.rating{
+  margin-right: 15px;
+  padding: 5px;
+  background-color: rgb(255, 255, 198);
+  border-radius: 5px;
+}
+
+.p_info{
+  padding: 5px 20px;
+  position: relative;
+  left: -1px;
+  top: 10px;
+  width: 250px;
+}
+
+.m-t{
+  margin-top: 21px;
+}
+
+.m-b{
+  margin-bottom: -38px;
+}
+
+.p_info small{
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.image-m-p-b{
+  margin-top: 10px;
+  margin-bottom: 22px;
+  padding-bottom: 20px;
+}
+
+.price{
+  margin-left: 10px;
+  color: rgb(235, 111, 111);
+}
+
+.m-p-t{
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+#main-footer{
+  background-color: black;
+  color: white;
+  margin-top: 15px;
+  padding-top: 5px;
+  text-align: center;
+}
