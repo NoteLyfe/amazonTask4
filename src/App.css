@@ -171,6 +171,9 @@
 
 .pdp-img-div{
   margin: 20px 25px 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 300px;
   width: 300px;
   background-color: lightgray;
