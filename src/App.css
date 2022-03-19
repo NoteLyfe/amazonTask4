@@ -61,8 +61,6 @@
 }
 
 #btn{
-  position: relative;
-  right: 86px;
   height: 45px;
   width: 85px;
   background-color: #F79B34;
@@ -96,7 +94,7 @@
 #catalog{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
-  grid-template-rows: repeat(4, 385px);
+  grid-template-rows: auto;
   grid-column-gap: 1.5rem;
   grid-row-gap: 1.5rem;
   margin: 36px 50px 0px 50px;
@@ -105,6 +103,7 @@
 
 .box{
   background-color: lightgray;
+  height: 385px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -145,24 +144,10 @@
   width: 250px;
 }
 
-.m-t{
-  margin-top: 21px;
-}
-
-.m-b{
-  margin-bottom: -38px;
-}
-
 .p_info small{
   position: relative;
   top: 15px;
   left: 15px;
-}
-
-.image-m-p-b{
-  margin-top: 10px;
-  margin-bottom: 22px;
-  padding-bottom: 20px;
 }
 
 .price{
@@ -170,16 +155,10 @@
   color: rgb(235, 111, 111);
 }
 
-.m-p-t{
-  margin-top: 20px;
-  padding-top: 30px;
-}
-
 .pdp{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* align-items: center; */
   width: 100vw;
   height: 83vh;
 }
@@ -187,13 +166,11 @@
 .pdp-info{
   width: 400px;
   height: 600px;
-  margin-left: 25px;
-  margin-top: 20px;
+  margin: 20px 8px 0 25px;
 }
 
-.pdp-img{
-  margin-top: 20px;
-  margin-right: 25px;
+.pdp-img-div{
+  margin: 20px 25px 0 8px;
   height: 300px;
   width: 300px;
   background-color: lightgray;
@@ -244,7 +221,6 @@
   cursor: pointer;
   background-color: #F79B34;
   color: white;
-
 }
 
 .btn-qty:hover{
