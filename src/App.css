@@ -37,6 +37,64 @@
   border-bottom: 2px solid white;
 }
 
+#ham_nav{
+  height: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 65px;
+  left: 0;
+  background-color: black;
+  opacity: 0.8;
+  overflow-y: hidden;
+  padding-top: 0px;
+  transition: 0.5s;
+  line-height: 1em;
+}
+
+#ham_nav a{
+  color: white;
+  display: block;
+  position: relative;
+  top: 15px;
+  padding: 10px 10px 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+#ham_nav a:hover{
+  border-bottom: 2px solid white;
+}
+
+#btn-close{
+  position:absolute;
+  background-color: rgb(252, 224, 252);
+  top: 0;
+  right: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  margin: 4px 5px;
+  padding: 0px 17px;
+  border-radius: 10px;
+}
+
+.side_nav{
+  position: absolute;
+  top: 25px;
+  padding: 5px;
+}
+
+.side_nav li{
+  padding: 5px 2px;
+  list-style: none;
+}
+
+.ham{
+  display: none;
+}
+
 .company-info{
   display: flex;
   flex-direction: column;
@@ -47,6 +105,7 @@
 .container{
   text-align: center;
   margin-top: 30px;
+  padding: 0 5px;
 }
 
 #search-input{
@@ -260,4 +319,20 @@
   margin-top: 15px;
   padding-top: 5px;
   text-align: center;
+}
+
+@media(max-width: 550px){
+  .ham{
+    display: block;
+    margin-top: 5px;
+    margin-right: -30px;
+  }
+  .nav{
+    display: none;
+  } 
+
+  #logo{
+    position: relative;
+    left: 65px;
+  }
 }
