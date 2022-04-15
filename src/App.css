@@ -335,4 +335,25 @@
     position: relative;
     left: 65px;
   }
+
+  .pdp{
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pdp-info{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }  
+
+  #main-footer{
+    position: relative;
+    top: 45px;
+  }
 }
